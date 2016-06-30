@@ -14,12 +14,14 @@
     assert.ok(true);
   });
 
+
   test('it creates a new message item element', (assert) => {
     const messageOne = { username: 'Ryan', message: 'Do your homework' };
     const messageTwo = { username: 'Josh', message: 'Time for standups' };
 
     const resultOne = createMessageItem(messageOne);
     const resultTwo = createMessageItem(messageTwo);
+
 
     // Element tag names are uppercase when looked up
     assert.equal(resultOne.tagName, 'LI', 'createMessageItem should return an `LI` element');
