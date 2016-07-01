@@ -11,7 +11,9 @@
 // You already have a function that creates these elements
 import createMessageItem from 'exercise/create-message-item';
 
-
+function addMessageItem(createMessageItem, ) {
+return 2;
+}
 
 
 
