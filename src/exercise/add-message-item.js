@@ -12,7 +12,5 @@
 import createMessageItem from 'exercise/create-message-item';
 
 export default function addMessageItem (parent,data) {
-  var x = 'wtf';
-createMessageItem(data);
-return x;
+parent.appendChild(createMessageItem(data));
 }
