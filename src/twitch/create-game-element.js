@@ -25,6 +25,13 @@
 //   _links: {},
 // }
 
-export default function (game) {
+export default function createGameItem(game){
 
+var title = document.createElement("ryan");
+
+title.classList.add("game-item");
+
+document.body.contains(title);
+
+ return title;
 }
