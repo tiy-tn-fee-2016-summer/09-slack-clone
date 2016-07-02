@@ -27,11 +27,24 @@
 
 export default function createGameItem(game){
 
-var title = document.createElement("ryan");
+  const parent = document.createElement("section");
+  parent.classList.add("game-item");
 
-title.classList.add("game-item");
+  const name = document.createElement("h3");
+  name.classList.add("game-item__name");
+  parent.appendChild(name);
+  name.innerText=game.name;
 
-document.body.contains(title);
+  const gameName = document.createElement("h4");
+  gameName.classList.add("game-item__popularity");
+  parent.appendChild(gameName);
+  gameName.innerText=game.popularity;
 
- return title;
+  const photo = document.createElement("img");
+  photo.classList.add("game-item__pic");
+  photo.src = game.box.large;
+  photo.alt = game.name;
+  parent.appendChild(photo);
+
+  return parent;
 }
