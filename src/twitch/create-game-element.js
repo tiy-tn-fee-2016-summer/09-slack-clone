@@ -25,6 +25,10 @@
 //   _links: {},
 // }
 
-export default function (game) {
+export default function gameItem (game) {
+const elm = document.createElement('div');
+elm.classList.add('game-item');
+elm.innerHTML = `<img src="${game.box.medium}"><h3>${game.name}</h3><p>${game.popularity} Viewers</p>`
+console.log(elm);
 
 }

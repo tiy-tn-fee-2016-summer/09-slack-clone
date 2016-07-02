@@ -19,8 +19,6 @@ export default function reverseList(existingList, destination) {
     var cloned = p[i].cloneNode(true);
 
     destination.appendChild(cloned);
-    // console.log(p[i]);
-    // console.log(cloned);
   }
 
 
