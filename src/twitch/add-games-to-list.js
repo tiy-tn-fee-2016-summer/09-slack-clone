@@ -8,6 +8,8 @@
 //
 // You already have a function that creates these game item elements
 
-export default function (parent, data) {
+export default function showGamesInList(parent, data) {
+
+
 
 }
