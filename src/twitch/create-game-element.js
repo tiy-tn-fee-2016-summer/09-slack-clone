@@ -25,6 +25,21 @@
 //   _links: {},
 // }
 
-export default function (game) {
 
+
+export default function createGame(game) {
+  const gameContainer = document.createElement(`div`);
+  gameContainer.innerHTML =
+
+    `<div class ="game-item">${game.popularity}</div>
+  <div class="game-item">${game._id}</div>
+  <div class="game-item">${game.giantbomb_id}</div>;`
+  return gameContainer;
 }
+
+//
+//
+//
+//
+// data.name
+// data.popularity, etc...
