@@ -25,7 +25,7 @@
 //   _links: {},
 // }
 
-export default function gameItem (game) {
+export default function createGameItem (game) {
 //Creates Parent
 const elm = document.createElement('div');
 // adds class to parent
@@ -57,7 +57,7 @@ elm.appendChild(cover);
 
 
 
-console.log(elm);
+// console.log(elm);
 return elm;
 
 }

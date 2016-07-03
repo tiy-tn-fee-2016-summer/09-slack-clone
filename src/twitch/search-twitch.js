@@ -10,11 +10,15 @@
 
 import getTwitchData from './get-data';
 
-export default function (parentElement, searchTerm, getData = getTwitchData) {
+export default function searchTwitch (parentElement, searchTerm, getData = getTwitchData) {
+
   // This function will run after `getData` has received data
   // Games will be a list of games from the twitch results
   const afterData = function (games) {
-
+    const node = document.createElement('ul');
+    parentElement.appendChild(node);
+    classList.add('game-item');
+console.log(parentElement)
   };
 
   // Need to return this for the tests to work...
