@@ -10,6 +10,20 @@
 
 export default function showGamesInList(parent, data) {
 
+  // const katie = parent.createElement('holder');
+  // const katie.innerHTML = '';
+  //
+  //
+  //
+  // for (var i = 0; i < data.length; i++) {
+  //   createGameItem + data[i]
+  // }
 
 
 }
+
+// createGameItem()
+//
+// for (var i = 0; i < data.length; i++) {
+//   data[i]
+// }
