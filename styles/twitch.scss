@@ -1,5 +1,59 @@
+$brand-dark-purple: #6441a5;
+$brand-light-purple: #b9a3e3;
+$brand-black: #262626;
+$brand-white: #f1f1f1;
+$font-color: #A49FAD;
+$gutter: 1rem;
+
 .tw-app {
   height: 100vh;
   overflow-y: auto;
   display: flex;
+}
+
+.tw-app__left {
+  background: #17141F;
+  height: 100vh;
+  width: 18rem;
+  position: absolute;
+}
+
+.tw-app__left-container {
+  margin: $gutter;
+}
+
+.tw-app__left-logo-container {
+  height: 5rem;
+  // background: green;
+}
+
+.tw-app__left-logo {
+  max-width: 7rem;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 1.5rem;
+  position: relative;
+}
+
+.tw-app__left-search-container {
+  text-align: center;
+}
+
+.tw-app__left-search {
+  margin: 0 auto;
+  background: #201C2C;
+  border: .1rem solid $brand-dark-purple;
+  width: 13rem;
+  height: 2rem;
+  padding-left: 1rem;
+  font-size: 14px;
+  color: $font-color;
+  position: relative;
+}
+
+.fa-search {
+  color: $font-color;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

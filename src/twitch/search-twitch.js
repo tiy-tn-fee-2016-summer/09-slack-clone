@@ -13,6 +13,7 @@ import getTwitchData from './get-data';
 export default function searchTwitch(parentElement, searchTerm, getData = getTwitchData) {
   // This function will run after `getData` has received data
   // Games will be a list of games from the twitch results
+
   const afterData = function (games) {
 // create new list
   let judson = document.createElement('list');

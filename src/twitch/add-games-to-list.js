@@ -7,8 +7,9 @@
 // Then add elements to the parent for each item in the data array
 //
 // You already have a function that creates these game item elements
-import createGameItem from 'twitch/create-game-element';
+
 export default function showGamesInList(parent, data) {
+import createGameItem from 'twitch/create-game-element';
 
   // clear content out
   parent.innerHTML = '';
