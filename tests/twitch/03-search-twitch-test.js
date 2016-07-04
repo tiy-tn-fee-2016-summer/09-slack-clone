@@ -92,7 +92,7 @@
 
     const gameListElement = document.createElement('div');
 
-    // Wait for searchEtsy to finish it's promise
+    // Wait for searchTwitch to finish it's promise
     //   since 'fakeData' is async
     searchTwitch(gameListElement, 'starbound', fakeData).then(() => {
       const gameItemOne = gameListElement.querySelector('.game-item');
@@ -100,7 +100,7 @@
       testUiForItem(gameItemOne, itemTwo, assert,
         'Starbound result');
 
-      // Wait for searchEtsy to finish it's promise
+      // Wait for searchTwitch to finish it's promise
       //   since 'fakeData' is async
       return searchTwitch(gameListElement, 'starcraft', fakeData);
     }).then(() => {
