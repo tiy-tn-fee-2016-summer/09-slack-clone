@@ -1,0 +1,26 @@
+// colors
+$brand-dark-purple: #6441a5;
+$brand-light-purple: #b9a3e3;
+$brand-black: #262626;
+$brand-white: #f1f1f1;
+$font-color: #A49FAD;
+// sizing
+$gutter: 1rem;
+$max-width: 2rem;
+
+.tw-app__left-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: $gutter;
+  &-item {
+    width: 6rem;
+    height: 2rem;
+    border: 0;
+    background-color: $brand-dark-purple;
+    color: $brand-white;
+  }
+}
