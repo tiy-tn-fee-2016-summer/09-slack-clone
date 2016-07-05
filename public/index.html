@@ -3,17 +3,86 @@
 
 <head>
   <meta charset="utf-8">
-  <title>08-voting-app</title>
+  <title>twitch-search</title>
   <link rel="stylesheet" href="/app.css">
 </head>
 
 <body>
   <div class="tw-app">
-    <div class="tw-app__left"></div>
+    <div class="tw-app__left">
+      <div class="tw-app__left-container">
+        <div class="tw-app__left-container-inner">
+        <div class="logo">
+          <img src="http://s.jtvnw.net/jtv_user_pictures/hosted_images/Twitch_Logo_White.png" alt="">
+        </div>
+        <input class="search-box" type="text" value="search">
+        <nav class="tw-app__left-nav-item">
+          <h3 class="fa fa-arrows">Games</h3>
+        </nav>
+        <nav class="tw-app__left-nav-item">
+          <h3 class="fa fa-video-camera">Channels</h3>
+        </nav>
+        <nav class="tw-app__left-nav-item">
+          <h3 class="fa fa-play-circle">Videos</h3>
+        </nav>
+        <div class="tw-app__left-recommended">
+          <h4>Recommended Channels</h4>
+          <div class="tw-app__left-recommended-item">
+            <img class="avatar" src="http://placehold.it/50/50" alt="" />
+            <h5>GamesDoneQuick</h5>
+            <p>playing The Legend of Zelda</p>
+          </div>
+          <div class="tw-app__left-recommended-item">
+            <img class="avatar" src="http://placehold.it/50/50" alt="" />
+            <h5>UGRGaming</h5>
+            <p>playing American Truck Simulator</p>
+          </div>
+          <div class="tw-app__left-recommended-item">
+            <img class="avatar" src="http://placehold.it/50/50" alt="" />
+            <h5>My_Google</h5>
+            <p>Playing H1Z1:King of the Kill</p>
+          </div>
+          <footer class="tw-app__left-footer">
+            <h5>MORE AT TWITCH</h5>
+            <div class="tw-app__left-footer-item">About</div>
+            <div class="tw-app__left-footer-item">Blog</div>
+            <div class="tw-app__left-footer-item">Cookie Policy</div>
+            <div class="tw-app__left-footer-item">Help</div>
+            <div class="tw-app__left-footer-item">Language</div>
+            <div class="tw-app__left-footer-item">Partners</div>
+            <div class="tw-app__left-footer-item">Store</div>
+            <div class="tw-app__left-footer-item">Advertisers</div>
+            <div class="tw-app__left-footer-item">Creative</div>
+            <div class="tw-app__left-footer-item">Developers</div>
+            <div class="tw-app__left-footer-item">Jobs</div>
+            <div class="tw-app__left-footer-item">Music</div>
+            <div class="tw-app__left-footer-item">Press</div>
+            <div class="tw-app__left-footer-item">Terms</div>
+          </footer>
+        </div>
+</div>
+      </div>
+    </div>
+
+
     <div class="tw-app__center">
       <div class="games-list"></div>
     </div>
-    <div class="tw-app__right"></div>
+    <div class="tw-app__right">
+      <div class="tw-app__right-container">
+        <div class="tw-app__right-container-inner">
+      <h2>You're not logged in!</h2>
+      <p>If you don't have an account, go ahead and sign up. It takes like two seconds and it's totally worth it.</p>
+        <h6 class="tw-app__right-item">Follow channels you enjoy watching </h6>
+        <h6 class="tw-app__right-item">Get notifications when they go live </h6>
+        <h6 class="tw-app__right-item">Chat with your fellow viewers </h6>
+        <h6 class="tw-app__right-item">Send and receive direct messages </h6>
+        <h6 class="tw-app__right-item">Start your own broadcast </h6>
+        <button class="tw-app__right-login">Log In</button>
+        <button class="tw-app__right-sign-up">Sign Up</button>
+      </div>
+    </div>
+    </div>
   </div>
 
   <script src="/vendor.js" charset="utf-8"></script>
