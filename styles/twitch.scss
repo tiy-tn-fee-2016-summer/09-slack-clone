@@ -5,10 +5,23 @@
   list-style: none;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-app__left {
+  background: $brand-black;
+  color: $brand-white;
+  overflow: auto;
+  width: 20%;
+}
+
 .tw-app__right {
   display: flex;
   background: $brand-gray;
   overflow: auto;
+  width: 30%;
 }
 
 .tw-app__center {
@@ -17,4 +30,5 @@
   height: 100vh;
   overflow: auto;
   padding:1rem;
+  width: 50%;
 }
