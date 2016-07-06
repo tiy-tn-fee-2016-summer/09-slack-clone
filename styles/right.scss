@@ -5,10 +5,10 @@ $brand-white: #f1f1f1;
 $brand-gray: #EFEEF1;
 $font-color: #A49FAD;
 $gutter: 1rem;
-$max-width: 1rem;
 
-.tw-app {
+.tw-app__right {
+  background: #17141F;
   height: 100vh;
-  overflow-y: auto;
-  display: flex;
+  width: 15rem;
+  position: absolute;
 }

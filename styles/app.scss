@@ -6,12 +6,15 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'reset';
 @import 'twitch';
-@import 'footer';
 @import 'font-awesome';
-
+@import 'left';
+@import 'right';
 
 
 $brand-dark-purple: #6441a5;
 $brand-light-purple: #b9a3e3;
 $brand-black: #262626;
 $brand-white: #f1f1f1;
+$brand-gray: #EFEEF1;
+$font-color: #A49FAD;
+$gutter: 1rem;
