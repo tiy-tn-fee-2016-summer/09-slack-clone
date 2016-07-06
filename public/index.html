@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>08-voting-app</title>
+  <title>09-Twitch-Search</title>
   <link rel="stylesheet" href="/app.css">
 </head>
 
@@ -61,7 +61,9 @@
       </nav>
     </div>
     <div class="tw-app__center">
-      <div class="games-list"></div>
+      <div class="games-list">
+
+      </div>
     </div>
     <div class="tw-app__right">
       <h3>You're not logged in!</h3>
@@ -69,7 +71,7 @@
          sign up. It takes like two seconds and it's totally<br></br>
           worth it.</p>
       <div class="follow">
-        <<p>Follow channels you enjoy watching</p>
+        <p>Follow channels you enjoy watching</p>
       </div>
       <div class="get">
         <p>Get notifications when they go live</p>
@@ -81,7 +83,7 @@
         <p>Send and recieve direct messages</p>
       </div>
       <div class="start">
-        <<p>Start your own broadcast</p>
+        <p>Start your own broadcast</p>
       </div>
       <div class="nav bottom-right">
         <div class="login-right">
@@ -101,7 +103,7 @@
     const twitch = require('twitch/index');
 
     const gamesList = document.querySelector('.games-list');
-    twitch(gamesList, 'star');
+    //twitch(gamesList, 'star');
   </script>
 </body>
 
