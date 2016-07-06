@@ -9,8 +9,11 @@ $gutter: 1rem;
 .tw-app__left {
   background: #17141F;
   height: 100vh;
-  width: 15rem;
-  position: absolute;
+  min-width: 15rem;
+
+  position: relative;
+  display: flex;
+  overflow: auto;
 }
 .tw-app__left-container {
   margin: $gutter;

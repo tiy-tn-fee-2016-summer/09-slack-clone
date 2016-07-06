@@ -9,9 +9,10 @@ $gutter: 2rem;
 .tw-app__right {
   background: $brand-gray;
   height: 100vh;
-  width: 22rem;
-  position: absolute;
-  right: 0;
+  min-width: 25rem;
+  max-width: 25rem;
+  position: relative;
+  overflow: auto;
 }
 
 .tw-app__right-double {
