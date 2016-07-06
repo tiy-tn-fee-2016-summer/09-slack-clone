@@ -9,7 +9,7 @@ $gutter: 2rem;
 .tw-app__right {
   background: $brand-gray;
   height: 100vh;
-  width: 25rem;
+  width: 22rem;
   position: absolute;
   right: 0;
 }
@@ -29,10 +29,12 @@ $gutter: 2rem;
 .tw-app__right-title {
   font-weight: 500;
   padding-top: 1rem;
+  font-size: 30px;
 }
 
 .tw-app__right-copy {
   padding-top: 2rem;
+  font-size: 14px;
 }
 
 
