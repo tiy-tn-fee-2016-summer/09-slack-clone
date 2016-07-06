@@ -1,0 +1,52 @@
+.tw-app__left {
+  background: $brand-black;
+  color: $brand-white;
+  overflow: auto;
+}
+.logo {
+  align-self: center;
+  width: 10rem;
+  padding: 1rem 2rem;
+}
+.logo-img {
+  width: 100%;
+}
+.search {
+  color: $brand-gray;
+  background: $brand_blue;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.click {
+  padding: 1rem 0;
+}
+.games {
+  font-size: 1rem;
+  height: 2rem;
+}
+.channels {
+  font-size: 1rem;
+  height: 2rem;
+}
+.videos {
+  font-size: 1rem;
+  height: 2rem;
+}
+.rec {
+  border-bottom: solid $brand_gray;
+  padding-bottom: 1rem;
+}
+.more {}
+.links {
+  display: flex;
+  flex-direction: row;
+}
+.links {}
+.column-1 {}
+.column-2 {}
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+.login {}
+.signup {}

@@ -5,12 +5,6 @@
   list-style: none;
 }
 
-.tw-app__left {
-  background: $brand-black;
-  color: $brand-white;
-  overflow: auto;
-}
-
 .tw-app__right {
   display: flex;
   background: $brand-gray;
@@ -18,15 +12,9 @@
 }
 
 .tw-app__center {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   overflow: auto;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-}
-
-.bottom {
-  display: flex;
-  flex-direction: row;
+  padding:1rem;
 }
