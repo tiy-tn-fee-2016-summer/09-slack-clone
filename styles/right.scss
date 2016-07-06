@@ -4,11 +4,97 @@ $brand-black: #262626;
 $brand-white: #f1f1f1;
 $brand-gray: #EFEEF1;
 $font-color: #A49FAD;
-$gutter: 1rem;
+$gutter: 2rem;
 
 .tw-app__right {
-  background: #17141F;
+  background: $brand-gray;
   height: 100vh;
-  width: 15rem;
+  width: 25rem;
   position: absolute;
+  right: 0;
+}
+
+.tw-app__right-double {
+  margin: $gutter;
+}
+
+.tw-app__right-container {
+
+}
+
+.tw-app__right-header {
+
+}
+
+.tw-app__right-title {
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.tw-app__right-copy {
+  padding-top: 2rem;
+}
+
+
+.tw-app__right-body {
+  padding-top: 2rem;
+}
+
+.tw-app__right-body-item-1 {
+  background-color: #ffffff;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-left: 0.3rem solid $brand-dark-purple;
+  width: 18rem;
+}
+
+.tw-app__right-body-item-2 {
+  background-color: #ffffff;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-left: 0.3rem solid $brand-dark-purple;
+  width: 17rem;
+}
+
+.tw-app__right-body-item-3 {
+  background-color: #ffffff;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-left: 0.3rem solid $brand-dark-purple;
+  width: 15rem;
+}
+
+.tw-app__right-body-item-4 {
+  background-color: #ffffff;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-left: 0.3rem solid $brand-dark-purple;
+  width: 17rem;
+}
+
+.tw-app__right-body-item-5 {
+  background-color: #ffffff;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-left: 0.3rem solid $brand-dark-purple;
+  width: 13rem;
+}
+
+.tw-app__right-footer {
+  display: inline-block;;
+  width: 100%;
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
+  padding-bottom: $gutter;
+  margin-top: $gutter;
+  &-item {
+    width: 6rem;
+    height: 3rem;
+    border: 0;
+    background-color: $brand-dark-purple;
+    color: $brand-white;
+    font-size: 17px;
+    margin-right: $gutter / 2;
+  }
 }
