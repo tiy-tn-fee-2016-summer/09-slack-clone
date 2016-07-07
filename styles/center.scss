@@ -11,6 +11,7 @@ $gutter: 1rem;
   display: flex;
   flex-grow: 2;
   background: #ffffff;
+  overflow: auto;
 }
 
 .tw-app__center-container {
@@ -41,6 +42,7 @@ $gutter: 1rem;
 .tw-app__center-gamebox {
   width: 100%;
   max-width: 10rem;
+  margin: 1rem;
 }
 
 .tw-app__center-image {
@@ -56,4 +58,9 @@ $gutter: 1rem;
 .tw-app__center-gameviews {
   font-size: 11px;
   padding-top: 0.1rem;
+}
+
+.games-list {
+  display: flex;
+  flex-wrap: wrap;
 }
