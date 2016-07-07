@@ -2,4 +2,38 @@
   height: 100vh;
   overflow-y: auto;
   display: flex;
+  list-style: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-app__left {
+  background: $brand-black;
+  color: $brand-white;
+  overflow: auto;
+  width: 20%;
+  position: relative;
+}
+
+.tw-app__right {
+  display: flex;
+  flex-direction: column;
+  background: $brand-gray;
+  overflow: auto;
+  flex: 1;
+  width: 30%;
+  min-width: 25rem;
+  padding-left: 3%;
+}
+
+.tw-app__center {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  padding:1rem;
+  width: 50%;
 }

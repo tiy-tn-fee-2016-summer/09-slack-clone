@@ -1,0 +1,73 @@
+.logo {
+  align-self: center;
+  width: 10rem;
+  padding: 1rem 2rem;
+}
+.logo-img {
+  width: 100%;
+}
+.search {
+  color: $brand-gray;
+  background: $brand_blue;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.click {
+  padding: 1rem 0;
+}
+.games {
+  font-size: 1rem;
+  height: 2rem;
+}
+h3 {
+  margin-left: 4%;
+}
+.span {
+  margin-left: 3%;
+}
+.channels {
+  font-size: 1rem;
+  height: 2rem;
+}
+.videos {
+  font-size: 1rem;
+  height: 2rem;
+}
+.icons {
+  margin-right: 12%;
+}
+.rec {
+  border-bottom: solid $brand_gray;
+  padding-bottom: 1rem;
+}
+.more {}
+.links {
+  display: flex;
+  flex-direction: row;
+}
+.links {}
+.column-1 {
+  padding-left: 5%;
+}
+.column-2 {
+  padding-left: 5%;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  position: static;
+}
+.login {
+  background: $brand-purple;
+  color: $brand_white;
+  padding: 0 10% 0 10%;
+}
+.signup {
+  background: $brand-purple;
+  color: $brand_white;
+  padding: 0 10% 0 10%;
+}
