@@ -19,6 +19,12 @@
   font-size: 1rem;
   height: 2rem;
 }
+h3 {
+  margin-left: 4%;
+}
+.span {
+  margin-left: 3%;
+}
 .channels {
   font-size: 1rem;
   height: 2rem;
@@ -26,6 +32,9 @@
 .videos {
   font-size: 1rem;
   height: 2rem;
+}
+.icons {
+  margin-right: 12%;
 }
 .rec {
   border-bottom: solid $brand_gray;
