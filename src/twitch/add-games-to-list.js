@@ -13,6 +13,12 @@ export default function showGamesInList(parent, data) {
   // clear content out
   parent.innerHTML = '';
 
+
+
+
+
+
+
   // for loop
   for (var i = 0; i < data.length; i++) {
     parent.appendChild(createGameItem(data[i]));
