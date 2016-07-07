@@ -11,21 +11,21 @@ $gutter: 1rem;
   display: flex;
   flex-grow: 2;
   background: #ffffff;
-  overflow: auto;
 }
 
 .tw-app__center-container {
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
+  overflow: auto;
 }
 
 .tw-app__center-top {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  // padding-top: 5rem;
+  // padding-bottom: 2rem;
+  margin: 1rem;
 }
 
 .tw-app__left-search {
@@ -63,4 +63,5 @@ $gutter: 1rem;
 .games-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
