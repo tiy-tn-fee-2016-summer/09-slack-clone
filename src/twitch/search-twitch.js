@@ -21,7 +21,6 @@ export default function searchTwitch(parentElement, searchTerm, getData = getTwi
   };
 
 
-
 // // create new list
 //   let judson = document.createElement('list');
 // // add new list to DOM
