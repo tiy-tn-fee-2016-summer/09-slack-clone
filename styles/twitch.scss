@@ -19,9 +19,13 @@
 
 .tw-app__right {
   display: flex;
+  flex-direction: column;
   background: $brand-gray;
   overflow: auto;
+  flex: 1;
   width: 30%;
+  min-width: 25rem;
+  padding-left: 3%;
 }
 
 .tw-app__center {

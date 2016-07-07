@@ -37,11 +37,28 @@
   flex-direction: row;
 }
 .links {}
-.column-1 {}
-.column-2 {}
+.column-1 {
+  padding-left: 5%;
+}
+.column-2 {
+  padding-left: 5%;
+}
 .bottom {
   display: flex;
   flex-direction: row;
 }
-.login {}
-.signup {}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  position: static;
+}
+.login {
+  background: $brand-purple;
+  color: $brand_white;
+  padding: 0 10% 0 10%;
+}
+.signup {
+  background: $brand-purple;
+  color: $brand_white;
+  padding: 0 10% 0 10%;
+}
