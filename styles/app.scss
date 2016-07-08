@@ -19,11 +19,11 @@ font-family: sans-serif;}
 width: 100%;
 // background: green;
 text-align: right;
-// padding: 1rem;
+padding: 2rem 5rem 0 0 ;
 &-input{
   font-size: 1.5rem;
   position: relative;
-  top:1.5rem;
+
 }
 }
 .tw-app__center-head{
@@ -55,7 +55,8 @@ min-width: 10rem;
 
 }
 .game-item__name{
-  font-size: .5rem;
+  font-size: .8rem;
+  font-weight: normal;
   text-overflow: ellipsis;
 width: 8rem;
 /* Required for text-overflow to do anything */
@@ -64,4 +65,12 @@ overflow: hidden;
 }
 .game-item__popularity{
   font-size: .5rem;
+}
+.tw-app__right-login,.tw-app__right-sign-up {
+  background: #7d5bbe;
+  border: none;
+  font-size: 1.5rem;
+  color:white;
+  padding: 0.5rem 1rem;
+
 }
