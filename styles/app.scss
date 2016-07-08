@@ -14,12 +14,25 @@ $lefthighlight : #201c2b;
 // *{border: 1px red solid;}
 body,p,h5,h2,h3,h4{margin:0;
 font-family: sans-serif;}
+
+.game-search{
+width: 100%;
+// background: green;
+text-align: right;
+// padding: 1rem;
+&-input{
+  font-size: 1.5rem;
+  position: relative;
+  top:1.5rem;
+}
+}
 .tw-app__center-head{
   padding-left: 1rem;
 }
+
 .tw-app__center{
   height: 100vh;
-  background: red;
+  // background: red;
   overflow: auto;
   padding:1rem;
 }
@@ -42,7 +55,12 @@ min-width: 10rem;
 
 }
 .game-item__name{
-  font-size: 1rem;
+  font-size: .5rem;
+  text-overflow: ellipsis;
+width: 8rem;
+/* Required for text-overflow to do anything */
+white-space: nowrap;
+overflow: hidden;
 }
 .game-item__popularity{
   font-size: .5rem;
