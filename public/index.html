@@ -3,17 +3,157 @@
 
 <head>
   <meta charset="utf-8">
-  <title>08-voting-app</title>
+  <title>twitch-search</title>
   <link rel="stylesheet" href="/app.css">
 </head>
 
 <body>
   <div class="tw-app">
-    <div class="tw-app__left"></div>
-    <div class="tw-app__center">
-      <div class="games-list"></div>
+    <div class="tw-app__left">
+      <div class="tw-app__left-container">
+        <div class="tw-app__left-container-inner">
+          <div class="logo">
+            <img src="http://s.jtvnw.net/jtv_user_pictures/hosted_images/Twitch_Logo_White.png" alt="">
+          </div>
+          <input class="search-box" type="text" value="search">
+          <nav class="tw-app__left-nav-item">
+            <h3 class="fa fa-arrows"><span>Games</span></h3>
+          </nav>
+          <nav class="tw-app__left-nav-item">
+            <h3 class="fa fa-video-camera"><span>Channels</span></h3>
+          </nav>
+          <nav class="tw-app__left-nav-item">
+            <h3 class="fa fa-play-circle"><span>Videos</span></h3>
+          </nav>
+          <div class="tw-app__left-recommended">
+            <h4>Recommended Channels</h4>
+            <div class="tw-app__left-recommended__item">
+              <img class="avatar" src="http://placehold.it/25/2" alt="" />
+              <h5>GamesDoneQuick</h5>
+              <p>playing The Legend of Zelda</p>
+            </div>
+            <div class="tw-app__left-recommended__item">
+              <img class="avatar" src="http://placehold.it/25/2" alt="" />
+              <h5>UGRGaming</h5>
+              <p>playing American Truck Simulator</p>
+            </div>
+            <div class="tw-app__left-recommended__item">
+              <img class="avatar" src="http://placehold.it/25/2" alt="" />
+              <h5>My_Google</h5>
+              <p>Playing H1Z1:King of the Kill</p>
+            </div>
+            <h5 class="more">MORE AT TWITCH</h5>
+          </div>
+          <footer class="tw-app__left-footer">
+            <div class="tw-app__left-footer-item">About</div>
+            <div class="tw-app__left-footer-item">Blog</div>
+            <div class="tw-app__left-footer-item">Cookie Policy</div>
+            <div class="tw-app__left-footer-item">Help</div>
+            <div class="tw-app__left-footer-item">Language</div>
+            <div class="tw-app__left-footer-item">Partners</div>
+            <div class="tw-app__left-footer-item">Store</div>
+            <span>
+            <div class="tw-app__left-footer-item">Advertisers</div>
+            <div class="tw-app__left-footer-item">Creative</div>
+            <div class="tw-app__left-footer-item">Developers</div>
+            <div class="tw-app__left-footer-item">Jobs</div>
+            <div class="tw-app__left-footer-item">Music</div>
+            <div class="tw-app__left-footer-item">Press</div>
+            <div class="tw-app__left-footer-item">Terms</div>
+          </span>
+          </footer>
+        </div>
+      </div>
     </div>
-    <div class="tw-app__right"></div>
+
+
+    <div class="tw-app__center">
+      <div class="tw-app__center-head">
+      <div class ='game-search'>  <input class ="game-search-input" placeholder="Search for a game">
+</div>
+        <h1>ALL GAMES</h1>
+      </div>
+      <div class="games-list">
+        <!-- <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div>
+        <div class="game-item">
+          <h4 class="game-item__popularity">3855</h4>
+          <h3 class="game-item__name">StarCraft II</h3>
+          <img class="game-item__pic" alt="StarCraft II" src="https://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II-272x380.jpg">
+        </div> -->
+
+
+
+      </div>
+    </div>
+    <div class="tw-app__right">
+      <div class="tw-app__right-container">
+        <div class="tw-app__right-container__inner">
+          <h2>You're not logged in!</h2>
+          <p>If you don't have an account, go ahead and sign up. It takes like two seconds and it's totally worth it.</p>
+          <h6 class="tw-app__right-item"><span>Follow channels you enjoy watching </span></h6>
+          <h6 class="tw-app__right-item"><span>Get notifications when they go live </span></h6>
+          <h6 class="tw-app__right-item"><span>Chat with your fellow viewers </span></h6>
+          <h6 class="tw-app__right-item"><span>Send and receive direct messages </span></h6>
+          <h6 class="tw-app__right-item"><span>Start your own broadcast </span></h6>
+          <button class="tw-app__right-login">Log In</button>
+          <button class="tw-app__right-sign-up">Sign Up</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="/vendor.js" charset="utf-8"></script>
@@ -24,6 +164,7 @@
 
     const gamesList = document.querySelector('.games-list');
     twitch(gamesList, 'star');
+    // console.log(twitch);
   </script>
 </body>
 

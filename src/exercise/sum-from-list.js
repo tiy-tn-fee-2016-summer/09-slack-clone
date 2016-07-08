@@ -4,6 +4,13 @@
 // This function should return a number that is the sum
 // of the contents of ALL of the child elements within the parent argument
 
-export default function () {
+export default function sumFromList(parent) {
+  var y = parent.querySelectorAll('li');
+  var collector = 0;
 
+  for (var i = 0; i < y.length; i++) {
+    collector = parseInt(y[i].innerText) + collector;
+  }
+
+  return collector;
 }

@@ -25,6 +25,39 @@
 //   _links: {},
 // }
 
-export default function (game) {
+export default function createGameItem (game) {
+//Creates Parent
+const elm = document.createElement('div');
+// adds class to parent
+elm.classList.add('game-item');
+
+// Creates h3
+const name = document.createElement('h3');
+// adds class to h3
+name.classList.add('game-item__name');
+// adds h3 to Parent
+elm.appendChild(name);
+// adds text to h3
+name.innerText=game.name;
+
+
+const pop = document.createElement('h4');
+pop.classList.add('game-item__popularity');
+elm.appendChild(pop);
+pop.innerText = game.popularity;
+
+
+const cover= document.createElement('img');
+cover.classList.add('game-item__pic');
+cover.alt = game.name;
+cover.src=game.box.large;
+elm.appendChild(cover);
+
+
+
+
+
+// console.log(elm);
+return elm;
 
 }

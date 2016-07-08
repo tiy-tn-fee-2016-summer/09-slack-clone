@@ -8,7 +8,9 @@
 //
 // The "data" argument will be an object that looks like
 // { username: 'John', message: 'Getting ready for the Java class!' },
-
-export default function () {
-
+export default function createMessageItem(data) {
+  var x = document.createElement('LI');
+  x.innerHTML = `<span class="message-item__username">${data.username}</span>
+  <span class="message-item"> ${data.message}</span>`;
+  return x;
 }

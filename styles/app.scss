@@ -1,8 +1,76 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$gray: #a49fad;
+$lefthighlight : #201c2b;
+@import 'font-awesome';
 @import 'box-sizing';
 @import 'reset';
 @import 'twitch';
+@import 'left-nav__desktop';
+@import 'right-side-desktop';
+
+// *{border: 1px red solid;}
+body,p,h5,h2,h3,h4{margin:0;
+font-family: sans-serif;}
+
+.game-search{
+width: 100%;
+// background: green;
+text-align: right;
+padding: 2rem 5rem 0 0 ;
+&-input{
+  font-size: 1.5rem;
+  position: relative;
+
+}
+}
+.tw-app__center-head{
+  padding-left: 1rem;
+}
+
+.tw-app__center{
+  height: 100vh;
+  // background: red;
+  overflow: auto;
+  padding:1rem;
+}
+.game-item__pic{
+  width: 100%;
+}
+.games-list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.game-item{
+  display: flex;
+  flex-direction: column-reverse;
+min-width: 10rem;
+  width: calc(100% / 4 - 1rem);
+  align-items: baseline;
+  padding: 1rem;
+
+
+}
+.game-item__name{
+  font-size: .8rem;
+  font-weight: normal;
+  text-overflow: ellipsis;
+width: 8rem;
+/* Required for text-overflow to do anything */
+white-space: nowrap;
+overflow: hidden;
+}
+.game-item__popularity{
+  font-size: .5rem;
+}
+.tw-app__right-login,.tw-app__right-sign-up {
+  background: #7d5bbe;
+  border: none;
+  font-size: 1.5rem;
+  color:white;
+  padding: 0.5rem 1rem;
+
+}
