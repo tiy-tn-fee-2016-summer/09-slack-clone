@@ -4,6 +4,15 @@
 // This function should return a number that is the sum
 // of the contents of ALL of the child elements within the parent argument
 
-export default function () {
+export default function sumFromList(ul) {
 
+var collector = 0;
+
+var james = ul.querySelectorAll('li');
+
+for (var i = 0; i < james.length; i++) {
+collector = parseInt(james[i].innerText) + collector;
+}
+
+return collector;
 }

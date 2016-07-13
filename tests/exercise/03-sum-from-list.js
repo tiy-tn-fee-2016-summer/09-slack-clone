@@ -12,8 +12,10 @@
 
     listOne.innerHTML = '<li>1</li><li>5</li>';
     listTwo.innerHTML = '<li>200</li><li>50</li><li>190</li>';
+    const resultOne = sumFromList(listOne);
+    const resultTwo = sumFromList(listTwo);
 
-    assert.equal(sumFromList(listOne), 6);
-    assert.equal(sumFromList(listTwo), 440);
+    assert.equal(resultOne, 6);
+    assert.equal(resultTwo, 440);
   });
 })();

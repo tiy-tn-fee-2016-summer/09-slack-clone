@@ -1,0 +1,67 @@
+$brand-dark-purple: #6441a5;
+$brand-light-purple: #b9a3e3;
+$brand-black: #262626;
+$brand-white: #f1f1f1;
+$brand-gray: #EFEEF1;
+$font-color: #A49FAD;
+$gutter: 1rem;
+
+
+.tw-app__center {
+  display: flex;
+  flex-grow: 2;
+  background: #ffffff;
+}
+
+.tw-app__center-container {
+  width: 100%;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.tw-app__center-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // padding-top: 5rem;
+  // padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+.tw-app__left-search {
+  width: 15rem;
+  background: #ffffff;
+  border: 0.1rem solid $font-color;
+  margin: 0;
+}
+
+.tw-app__center-title {
+  font-weight: 500;
+}
+
+.tw-app__center-gamebox {
+  width: 100%;
+  max-width: 10rem;
+  margin: 1rem;
+}
+
+.tw-app__center-image {
+  width: 100%;
+  max-width: 10rem;
+}
+
+.tw-app__center-gametitle {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.tw-app__center-gameviews {
+  font-size: 11px;
+  padding-top: 0.1rem;
+}
+
+.games-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

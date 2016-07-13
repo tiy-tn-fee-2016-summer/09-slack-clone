@@ -11,6 +11,10 @@
 // You already have a function that creates these elements
 import createMessageItem from 'exercise/create-message-item';
 
-export default function () {
+export default function addMessageItem(parent, data){
+
+  var ryan = createMessageItem(data);
+
+  parent.appendChild(ryan);
 
 }
